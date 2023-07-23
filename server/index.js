@@ -26,7 +26,7 @@ const startServer = async () => {
     console.log(error);
   }
 
-  app.listen(8080, () => console.log("Server has started on port 8080"));
+  app.listen(8080, () => console.log("Server has started on port #8080"));
 };
 
 startServer();
